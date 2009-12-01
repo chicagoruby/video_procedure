@@ -3,7 +3,7 @@ ChicagoRuby Video Recording Procedure
 
 ### Equipment List
 
-* 	Mac with BoinxTV 1.4.x.
+* 	Mac with BoinxTV 1.4.2.
 	Dedicated video card w/ large display highly recommended.
 * 	Firewire video camera.
 * 	Lapel mic and wireless receiver.
@@ -13,7 +13,7 @@ ChicagoRuby Video Recording Procedure
 
 ## BoinxTV Setup
 
-Begin by opening the ChicagoRuby.tvshow file in BoinxTV. You can optionally copy this file to ~/Library/Application Support/Boinx/BoinxTV/Templates. Complete the following steps to prepare BoinxTV for recording:
+Begin by opening the ChicagoRuby.tvshow file in BoinxTV. You can optionally copy this file to ~/Library/Application Support/Boinx/BoinxTV/Templates so that it appears in the template chooser. Complete the following steps to prepare BoinxTV for recording:
 
 1. 	Save the template file using the ChicagoRuby-YYYYMMDD.tvshow
 	naming convention.
@@ -28,6 +28,8 @@ Begin by opening the ChicagoRuby.tvshow file in BoinxTV. You can optionally copy
 4.	Set all required lower thirds. Double check for typos!
 5.	Configure the Presenter layer to use either the Presenter on Left or
 	Presenter on Right preset.
+6.	Click the headphones icon in the upper right to enable playthrough
+	through headphones for monitoring audio output.
 	
 If the VGA2USB device is not available or not functioning with the speaker's computer, you can screen capture a VNC connection. An external monitor is recommended for this process. To setup the screen capture in BoinxTV, set the Presenter layer to use Screen Capture Source as Source B. In the Sources pane, select the Screen Capture Source to adjust the capture area.
 
@@ -56,11 +58,11 @@ To begin recording a video, press the record button or Command+R. Begin the reco
 
 	R - Toggle ambient mic (for audience questions)
 	
-## Exporting and Compressing
+## Exporting and Transcoding
 
 To end a recording, press the stop button or Command+R. BoinxTV will export the recording in Apple Intermediate Codec format. This process may take a few minutes depending on the length of the recording.
 
-Following the initial export, the video must be transcoded using H.264 before uploading to Vimeo. This can be performed within BoinxTV by selecting the H.264 QuickTime preset. Note that this process may take up an hour or more to complete depending on the length of the recording. You can perform this process at a later time by returning to BoinxTV, selecting "Export Recording..." from the File menu, and choosing the raw Apple Intermediate Codec video as the source.
+Following the initial export, the video must be transcoded using H.264 before uploading to Vimeo. This can be performed within BoinxTV by selecting the H.264 QuickTime preset. Note that this process may take up an hour or more to complete depending on the length of the recording. You can perform this process at a later time by returning to BoinxTV, selecting "Export Recording..." from the File menu, and choosing the previously exported Apple Intermediate Codec video as the source.
 
 The conversion to H.264 can also be performed using other tools. VisualHub generally works well if you're lucky enough to have obtained a license before the developer closed up shop. Unfortunately, Handbrake will not convert from Apple Intermediate Codec.
 
