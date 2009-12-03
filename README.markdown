@@ -37,11 +37,13 @@ Begin by opening the ChicagoRuby.tvshow file in BoinxTV. You can optionally copy
 
 ## BoinxTV Operation
 
-To begin recording a video, press the record button or Command+R. Begin the recording a few seconds before signaling the announcer or speaker to begin in order to allow display of the title card. During the recording, the following keyboard shortcuts can be used to toggle layers:
+To begin recording a video, press the record button or Command+R. The title screen should be enabled when starting the recording. Leave the title screen displayed until the person making announcements begins introducing the speaker. This will allow announcements to be easily trimmed from the video while not requiring the title screen to be re-added in post-production.
 
-#### Title Card
+During the recording, the following keyboard shortcuts can be used to toggle layers:
 
-	T - Toggle title card
+#### Title Screen
+
+	T - Toggle title screen
 
 #### Lower Thirds
 
@@ -67,6 +69,8 @@ To end a recording, press the stop button or Command+R. BoinxTV will export the 
 Following the initial export, the video must be transcoded using H.264 before uploading to Vimeo. This can be performed within BoinxTV by selecting the H.264 QuickTime preset. Note that this process may take up an hour or more to complete depending on the length of the recording. You can perform this process at a later time by returning to BoinxTV, selecting "Export Recording..." from the File menu, and choosing the previously exported Apple Intermediate Codec video as the source.
 
 The conversion to H.264 can also be performed using other tools. VisualHub generally works well if you're lucky enough to have obtained a license before the developer closed up shop. Please feel free to share suggestions regarding alternative video transcoding tools that may work well.
+
+Any minor post-production edits, such as trimming announcements from the start of the video, can be performed with QuickTime.
 
 ## Uploading to Vimeo
 
