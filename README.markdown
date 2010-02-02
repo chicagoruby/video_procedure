@@ -3,7 +3,7 @@ ChicagoRuby Video Recording Procedure
 
 ### Equipment List
 
-* 	Mac with BoinxTV 1.4.2.
+* 	Mac with BoinxTV 1.5.
 	Dedicated video card w/ large display highly recommended.
 * 	Firewire video camera.
 * 	Lapel mic and wireless receiver.

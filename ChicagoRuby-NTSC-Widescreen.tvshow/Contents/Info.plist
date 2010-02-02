@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleGetInfoString</key>
-	<string>Saved with BoinxTV 1.4.2</string>
+	<string>Saved with BoinxTV 1.5</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
 	<string>Show</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.4.2</string>
+	<string>1.5</string>
 </dict>
 </plist>
