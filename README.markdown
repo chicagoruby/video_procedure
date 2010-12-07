@@ -3,33 +3,34 @@ ChicagoRuby Video Recording Procedure
 
 ### Equipment List
 
-* 	Mac with BoinxTV 1.5.
-	Dedicated video card w/ large display highly recommended.
+* 	Mac w/ dedicated video card.
+*		BoinxTV 1.6.x
 * 	Firewire video camera.
 * 	Lapel mic and wireless receiver.
-* 	VGA2USB device (optional).
-* 	Headphones for monitoring audio output.
+* 	VGA2USB for capturing slide output.
+* 	Headphones for monitoring audio output (optional).
 * 	External hard drive for storing video (optional).
 
 ## BoinxTV Setup
 
-Begin by opening the ChicagoRuby.tvshow file in BoinxTV. You can optionally copy this file to ~/Library/Application Support/Boinx/BoinxTV/Templates so that it appears in the template chooser. Complete the following steps to prepare BoinxTV for recording:
+Move the ChicagoRuby-NTSC.tvshow file to ~/Library/Application Support/Boinx/BoinxTV/Templates so that it appears in the template chooser. Complete the following steps to prepare BoinxTV for recording:
 
 1. 	Save the template file using the ChicagoRuby-YYYYMMDD.tvshow
-	naming convention.
-2.	Open the Sources pane and set proper input sources as follows:
+		naming convention.
+2.	Open the Sources pane (bottom left corner of Boinx) and set proper input sources as follows:
 	1.	Camera & Speaker Mic: Firewire camera for video device,
-		Lapel mic for audio device. *(1)*
+			Lapel mic for audio device. *(1)*
 	2.	VGA2USB: VGA2USB for video device. *(2)*
 	3.	Ambient Mic: Firewire camera (or a separate external ambient
-		mic if available).
-3.	Set the session date and session information in the Session Date
-	and Session Name layers, respectively. Double check for typos!
-4.	Set all required lower thirds. Double check for typos!
-5.	Configure the Presenter layer to use either the Presenter on Left or
-	Presenter on Right preset.
-6.	Click the headphones icon in the upper right to enable playthrough
-	through headphones for monitoring audio output.
+			mic if available).
+3.	Set the session date and session information by selecting on the Session Date
+		and Session Name layers, respectively, and editing the content text.
+4.	Set all required lower thirds by selecting the Lower Third layer and then selecting
+		each individual lower third setting. In the settings pane under Content, set the Title and Subtitle.
+5.	Select the Presenter layer. In the settings pane under Content, set Position to either Left or Right 
+		depending on where the speaker will be standing relative to the projection screen.
+6.	Click the headphones icon (upper right corner of Boinx) to enable playthrough
+		through headphones for monitoring audio output.
 	
 *(1)* If you are receiving low audio levels from the lapel mic, go into the Sound preferences pane in OS X's System Preferences to adjust the input volume for the line-in input.
 
@@ -37,9 +38,9 @@ Begin by opening the ChicagoRuby.tvshow file in BoinxTV. You can optionally copy
 
 ## BoinxTV Operation
 
-To begin recording a video, press the record button or Command+R. The title screen should be enabled when starting the recording. Leave the title screen displayed until the person making announcements begins introducing the speaker. This will allow announcements to be easily trimmed from the video while not requiring the title screen to be re-added in post-production.
+To begin recording a video, press the record button or Command+R. The title screen should be enabled when starting the recording. Leave the title screen displayed until event host introduces the speaker. This will allow announcements to be easily trimmed from the video while not requiring the title screen to be re-added in post-production.
 
-During the recording, the following keyboard shortcuts can be used to toggle layers:
+During the recording, keyboard shortcuts can be used to toggle layers. If the shortcuts are not working, click on any random layer.
 
 #### Title Screen
 
@@ -64,14 +65,4 @@ During the recording, the following keyboard shortcuts can be used to toggle lay
 	
 ## Exporting and Transcoding
 
-To end a recording, press the stop button or Command+R. BoinxTV will export the recording in Apple Intermediate Codec format. This process may take a few minutes depending on the length of the recording.
-
-Following the initial export, the video must be transcoded using H.264 before uploading to Vimeo. This can be performed within BoinxTV by selecting the H.264 QuickTime preset. Note that this process may take up an hour or more to complete depending on the length of the recording. You can perform this process at a later time by returning to BoinxTV, selecting "Export Recording..." from the File menu, and choosing the previously exported Apple Intermediate Codec video as the source.
-
-The conversion to H.264 can also be performed using other tools. VisualHub generally works well if you're lucky enough to have obtained a license before the developer closed up shop. Please feel free to share suggestions regarding alternative video transcoding tools that may work well.
-
-Any minor post-production edits, such as trimming announcements from the start of the video, can be performed with QuickTime.
-
-## Uploading to Vimeo
-
-The completed video in H.264 format can be uploaded the ChicagoRuby Vimeo account. When uploading, it should be added to the ChicagoRuby video channel.
+To end a recording, press the stop button or Command+R. Click "Close" on the "Export Your Recording" screen.
