@@ -4,7 +4,7 @@ ChicagoRuby Video Recording Procedure
 ### Equipment List
 
 * 	Mac w/ dedicated video card.
-*		BoinxTV 1.6.x
+* 	BoinxTV 1.6.x
 * 	Firewire video camera.
 * 	Lapel mic and wireless receiver.
 * 	VGA2USB for capturing slide output.
@@ -16,21 +16,21 @@ ChicagoRuby Video Recording Procedure
 Move the ChicagoRuby-NTSC.tvshow file to ~/Library/Application Support/Boinx/BoinxTV/Templates so that it appears in the template chooser. Complete the following steps to prepare BoinxTV for recording:
 
 1. 	Save the template file using the ChicagoRuby-YYYYMMDD.tvshow
-		naming convention.
+	naming convention.
 2.	Open the Sources pane (bottom left corner of Boinx) and set proper input sources as follows:
 	1.	Camera & Speaker Mic: Firewire camera for video device,
-			Lapel mic for audio device. *(1)*
+	Lapel mic for audio device. *(1)*
 	2.	VGA2USB: VGA2USB for video device. *(2)*
 	3.	Ambient Mic: Firewire camera (or a separate external ambient
-			mic if available).
+	mic if available).
 3.	Set the session date and session information by selecting on the Session Date
-		and Session Name layers, respectively, and editing the content text.
+	and Session Name layers, respectively, and editing the content text.
 4.	Set all required lower thirds by selecting the Lower Third layer and then selecting
-		each individual lower third setting. In the settings pane under Content, set the Title and Subtitle.
+	each individual lower third setting. In the settings pane under Content, set the Title and Subtitle.
 5.	Select the Presenter layer. In the settings pane under Content, set Position to either Left or Right 
-		depending on where the speaker will be standing relative to the projection screen.
+	depending on where the speaker will be standing relative to the projection screen.
 6.	Click the headphones icon (upper right corner of Boinx) to enable playthrough
-		through headphones for monitoring audio output.
+	through headphones for monitoring audio output.
 	
 *(1)* If you are receiving low audio levels from the lapel mic, go into the Sound preferences pane in OS X's System Preferences to adjust the input volume for the line-in input.
 
